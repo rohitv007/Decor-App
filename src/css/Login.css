@@ -1,0 +1,99 @@
+#login-box {  
+    max-width: 400px;
+    margin: 30px auto 60px;
+}
+
+#login div:nth-child(3){
+    display: grid;
+    place-content: center;
+}
+
+#login-box h2 {
+    margin: 2em auto;
+    padding: 0;
+    text-align: center;
+    color: whitesmoke;
+    font-weight: 600;
+}
+
+.user-box {
+    position: relative;
+}
+
+.user-box input{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 100px;
+    margin-bottom: 50px;
+    height: 40px;
+    padding-left: 16px;
+}
+
+
+#login-box .user-box label {
+    position: absolute;
+    top: 0;
+    left: 10px;
+    padding: 10px 0;
+    pointer-events: none;
+    transition: 0.3s;
+    color: gray;
+    font-weight: 600;
+}
+
+#login-box .user-box input:focus ~ label,
+#login-box .user-box input:valid ~ label {
+    top:-35px;
+    left: 10px;
+    font-size: 13px;
+    color: goldenrod;
+}
+
+#login-box .user-box input:focus,
+#login-box .user-box input:valid {
+    box-shadow: 0px 0px 12px goldenrod;
+}
+
+.login_btn {
+    background: #000;
+    border: none;
+    border-radius: 100px;
+    outline: none;
+    color: goldenrod;
+    text-decoration: none;
+    overflow: hidden;
+    font-weight: bold;
+    padding: 7px 25px 7px 25px;
+    margin-top: 5px;
+    letter-spacing: 2px;
+    box-shadow: 0px 0px 5px goldenrod;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login_btn:hover, .login_btn:focus {
+    color: whitesmoke;
+    /* border-radius: 100px; */
+    box-shadow: 0px 0px 10px goldenrod inset;
+    outline: none;
+}
+
+hr {
+    border-bottom: 1px solid gray;
+}
+
+.forget_pswd {
+    margin: 1em auto;
+    text-align: center;
+}
+
+.forget_pswd a {
+    letter-spacing: 1px;
+    color: whitesmoke;
+}
+
+.forget_pswd a:hover {
+    color: goldenrod;
+    text-decoration: none;
+}

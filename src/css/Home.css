@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.home {
+    width: 100%;
+    height: max-content;
+    background-color: #121212;
+    color: whitesmoke;
+    overflow-x: hidden;
+}
+
+.home__mid .item {
+    width: 100%;
+    height: 440px;
+    margin: 20px auto 50px;
+    padding-top: 75px;
+    background: url("../assets/home-anim.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.home .home__mid {
+    padding-top: 3em;
+    background: #121212;
+    padding-bottom: 3em;
+}
+
+.home .home__brand {
+    color: whitesmoke;
+    display: block;
+    position: relative;
+    top: 25%;
+    left: 5%;
+}
+
+.home__brand p {
+    font-size: 200%;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.button__list .buttons {
+    display: grid;
+    place-content: center;
+    display: flex;
+}
+
+.buttons button {
+    background: #121212;
+    color: goldenrod;
+    border-color: goldenrod;
+    margin: auto 5px;
+}
+
+.buttons button:hover {
+    color: whitesmoke;
+}
+
+.buttons button:focus {
+    box-shadow: none;
+}
+
+.parallax {
+    background-color: #121212;
+    background: url("../assets/parallax-bg.jpg") no-repeat fixed 100%;
+    background-position: center center;
+    width: 100%;
+    height: max-content;
+}
+
+.parallax-inner {
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+.parallax-inner button {
+    font-size: 1.4em;
+    font-weight: 600;
+    float: right;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    background: #FFF;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.parallax-inner button:hover {
+    color: #fff;
+    background: none;
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+

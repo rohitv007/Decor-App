@@ -1,0 +1,23 @@
+#carouselHome .card, #carouselHome1 .card {
+    background: #222222;
+}
+
+.carousel-indicators {
+    bottom: -40px;
+}
+
+.home__carousel {
+    margin: 50px auto;
+    padding: 0 20px;
+}
+
+.carousel .carousel-indicators li {
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+}
+
+.home__carousel h4 {
+    font-weight: 600;
+    margin-bottom: 1em;
+}
