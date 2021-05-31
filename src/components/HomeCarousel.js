@@ -35,7 +35,7 @@ function HomeCarousel() {
 
                             <div className="col-md-4 clearfix d-none d-md-block">
                                 <div className="card mb-2">
-                                    <img className="card-img-top" src="https://intradecor.com/vender/wow/data0/images/modular-kitchen-new.jpg" alt=""/>
+                                    <img className="card-img-top" src="https://www.pixelstalk.net/wp-content/uploads/images1/Room-home-luxury-style-modern-interior-backgrounds-1920x1080-768x432.jpg" alt=""/>
                                     <div className="card-body">
                                         <h4 className="card-title">Product</h4>
                                         <p className="card-text">Check out our Products. You might just find out what you need.</p>
@@ -59,7 +59,7 @@ function HomeCarousel() {
 
                             <div className="col-md-4 clearfix d-none d-md-block">
                                 <div className="card mb-2">
-                                    <img className="card-img-top" src="https://intradecor.com/vender/wow/data0/images/modular-kitchen-new.jpg" alt=""/>
+                                    <img className="card-img-top" src="https://www.pixelstalk.net/wp-content/uploads/images1/Room-home-luxury-style-modern-interior-backgrounds-1920x1080-768x432.jpg" alt=""/>
                                     <div className="card-body">
                                         <h4 className="card-title">Product</h4>
                                         <p className="card-text">Check out our Products. You might just find out what you need.</p>
@@ -83,7 +83,7 @@ function HomeCarousel() {
                         <div className="row">
                             <div className="col-md-4">
                                 <div className="card mb-2">
-                                    <img className="card-img-top" src="https://intradecor.com/vender/wow/data0/images/modular-kitchen-new.jpg" alt=""/>
+                                    <img className="card-img-top" src="https://www.pixelstalk.net/wp-content/uploads/images1/Room-home-luxury-style-modern-interior-backgrounds-1920x1080-768x432.jpg" alt=""/>
                                     <div className="card-body">
                                         <h4 className="card-title">Product</h4>
                                         <p className="card-text">Check out our Products. You might just find out what you need.</p>

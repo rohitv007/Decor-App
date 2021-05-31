@@ -48,35 +48,45 @@
     margin-bottom: 8px;
   }
   
-  .searchBar > input {
-    flex: 1;
+  .searchBar div input {
     border: none;
     outline: none;
     border-radius: 0;
     border-right: none;
     margin: 0;
     padding: 0;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
     background-color: whitesmoke;
     padding-left: 2%;
   }
+
+  .searchBar div input:focus {
+    background-color: whitesmoke;
+  }
   
-  .searchBar > input:focus {
+  .searchBar div input:focus {
     box-shadow: none;
   }
   
-  .searchBar > button {
+  .searchBar div button {
     outline: none;
     border-radius: 0;
     border-left: none;
     margin: 0;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
     background-color: whitesmoke;
   }
   
-  .searchBar > button:hover {
+  .searchBar div button:hover {
     background-color: rgb(26, 26, 26);
     color: whitesmoke;
+  }
+
+  @media screen and (max-width: 991px) {
+    form.searchBar {
+      flex: 1;
+      width: 100%;
+    }
   }

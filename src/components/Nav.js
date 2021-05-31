@@ -28,9 +28,13 @@ function Nav() {
                             <Link className="nav-link" to="/contact" tabIndex={-1} aria-disabled="true"><RiContactsLine /><br /> Contact</Link>
                         </li>
                     </ul>
-                    <form className="searchBar form-inline ml-auto">
-                        <input className="form-control" type="search" placeholder="Search" aria-label="Search" />
-                        <button className="btn ml-auto" type="submit"><i className="fa fa-search" aria-hidden="true"></i></button>
+                    <form className="searchBar form-group form-inline ml-auto">
+                        <div>
+                            <input className="form-control" type="search" placeholder="Search" aria-label="Search"/>
+                        </div>
+                        <div>
+                            <button className="btn ml-auto" type="submit"><i className="fa fa-search" aria-hidden="true"></i></button>
+                        </div>
                     </form>
                 </div>
             </nav>
