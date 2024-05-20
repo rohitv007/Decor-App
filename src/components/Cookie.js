@@ -50,7 +50,7 @@ function Cookie() {
         <div>
             <Modal show={showModal} backdrop="static" keyboard={false} centered>
                 <Modal.Header>
-                    <Modal.Title>Cookie Modal</Modal.Title>
+                    <Modal.Title>Contact Information</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>    
                     <form>
